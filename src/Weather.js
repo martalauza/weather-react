@@ -1,5 +1,6 @@
 import React from "react";
-
+// eslint-disable-next-line
+import App from "./App.css";
 import "./Weather.css";
 
 export default function Weather() {
@@ -51,9 +52,7 @@ export default function Weather() {
             />
             <div className="float-left">
               <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
+              <span className="units">°C</span>
             </div>
           </div>
         </div>
