@@ -1,6 +1,4 @@
 import React from "react";
-// eslint-disable-next-line
-import App from "./App.css";
 import "./Weather.css";
 
 export default function Weather() {

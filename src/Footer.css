@@ -1,0 +1,11 @@
+.developer-link {
+  text-decoration: none;
+  color: #fab388;
+}
+.developer-link:hover {
+  text-decoration: underline;
+  color: #f6d868;
+}
+.developer {
+  font-size: 14px;
+}
